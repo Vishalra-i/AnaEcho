@@ -1,0 +1,23 @@
+{
+  "name": "anaecho",
+  "version": "1.0.0",
+  "description": "In the world of instant messaging, AnaEcho stands out as a beacon of seamless communication. It’s not just an app; it’s a haven for those who believe in the power of words and the resonance of conversations. With AnaEcho, you’re not just sending messages; you’re creating ripples that turn into waves of meaningful connections.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --env-file .env src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Rai",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
